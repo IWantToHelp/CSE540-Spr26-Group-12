@@ -4,6 +4,6 @@ Team Name: CSE 540 Project Team 12
 Team Members: 
 - Deepti Panchangam
 - Kudzayi Mwashita
-- Qianhui Yang
+- Qianhui(Jessie) Yang
 - Rayyan Ashraf
 - Tyler Nguyen
