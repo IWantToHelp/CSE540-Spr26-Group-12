@@ -32,6 +32,8 @@ On the Sepolia Testnet, we were able to get the gas cost of operations such as
 
 The frontend application uses a direct client-to-contract architecture. The React frontend connects to MetaMask, and MetaMask provides the signer for blockchain transactions. ethers.js is used to call the deployed PharmacySupplyChain smart contract on the Ethereum Sepolia testnet. Because the project focuses on on-chain product registration, role assignment, ownership transfer, status updates, and product history, a separate Express backend was not required.
 
+The UI can be viewed on https://iwanttohelp.github.io/CSE540-Spr26-Group-12/, but any functions that change/add product information will not work unless the wallet connected is registered as a Manufacturer, Distributor, Pharmacy, or Regulator.
+
 ---
 
 ## Features
