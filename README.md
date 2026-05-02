@@ -46,8 +46,9 @@ The frontend application uses a direct client-to-contract architecture. The Reac
 ## Dependencies
 - Solidity ^0.8.20  
 - Remix IDE  
-- MetaMask (optional)  
+- MetaMask  
 - Ethereum-compatible network (Remix VM / Polygon Amoy)
+- npm (for the frontend)
 
 ---
 
@@ -83,7 +84,7 @@ After deployment, you can use the following functions:
 4. Connect the frontend with your metamask wallet by clicking connect Metamask and following Metamask's instructions
 
 Notes:
-- When connecting Metamask to the frontend application, any operations that change the state of the contract will take gas from the Sepolia testnet, so use https://cloud.google.com/application/web3/faucet/ethereum/sepolia to get sepolia ETH to test operations such as 
+- When connecting Metamask to the frontend application, any operations that change the state of the contract will take gas from the Sepolia testnet, so use https://cloud.google.com/application/web3/faucet/ethereum/sepolia to get Sepolia ETH to test operations such as 
     - "Assign Role"
     - "Register Product" 
     - "Update Status" 
